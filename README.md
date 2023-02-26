@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as tecnologias:
 - JavaScript
  
 ## 🔗 Deploy
-  Veja o deploy do projeto [TimePhone](https://antonioscn.github.io/timephone/).
+  Veja o deploy do projeto [TimePhone](https://timephone.vercel.app/).
 
 ## ✨ Visualiser
 
