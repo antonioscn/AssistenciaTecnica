@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/FavIcon.svg" type="image/x-icon">
+    <title>TimePhone New</title>
+</head>
+<body>
+
+    <!-- MENUS -->
+    <header>
+
+        <nav class="mobile-menu">
+        <div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#sobre" onclick="toggleMenu()">Quem somos</a></li>
+                <li><a href="#servicos" onclick="toggleMenu()">Serviços</a></li>
+                <li><a href="#beneficios" onclick="toggleMenu()">Benefícios</a></li>
+                <li><a href="#marcas" onclick="toggleMenu()">Localização</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </ul>
+        </div>
+        </nav>
+        <nav>
+            <div class="line-mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+           
+
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#sobre" onclick="toggleMenu()">Quem somos</a></li>
+                <li><a href="#servicos" onclick="toggleMenu()">Serviços</a></li>
+            </ul>
+
+            <a href="#home">
+                <img src="./imgs/Logo-TimePhone.png" class="Logo" alt="Logo da TimePhone" style="width: 100px;"></a>
+
+            <ul class="menu">
+                <li><a href="#beneficios" onclick="toggleMenu()">Benefícios</a></li>
+                <li><a href="#marcas" onclick="toggleMenu()">Localização</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- HOME -->
+     <section class="home" id="home">
+        <div class="txtHome">
+            <h1>Problemas com <br>seu celular?</h1>
+
+            <a href="https://api.whatsapp.com/send?phone=5571992845405&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."><button class="btn">Fale com a gente</button></a>
+        </div>
+
+        <div class="btn-whats"> 
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="https://api.whatsapp.com/send?phone=5571992845405&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-image: linear-gradient(to right, #004AAD, #07ACD5);color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+            z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+
+     <!-- ********** SOBRE ********** -->
+     <section class="sobre js-scroll" id="sobre">
+        <div class="heading">
+            <h2>Prazer, somos a</h2>
+            <h3>TimePhone!</h3>
+        </div>
+
+        <div class="content">
+            <div class="contentBx">
+                <p>Uma assistência técnica especializada no conserto de aparelhos celulares, com especialistas que possuem mais de 20 anos no mercado de tecnologia.</p>
+                <p>Localizada na cidade de Salvador - Ba, a TimePhone tem o objetivo de ser a melhor no que faz, perseguindo o reconhecimento de seus clientes, oferecendo produtos e serviços com qualidade, rapidez, preços acessíveis e atendimento especializado.</p>   
+            </div>
+
+            <img class="celular" src="\imgs\img-celular.png" alt="Celular">            
+        </div>
+    </section>
+
+     <!-- ********** SERVIÇOS ********** -->
+     <section class="servicos js-scroll" id="servicos">
+        <div class="heading">
+            <h2>Serviços</h2>
+        </div>
+
+        <div class="content">
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/1.svg" alt="Icone de celular trocando de tela">
+                </div>
+                <p>Reparo e <br>troca de tela</p>
+            </div>
+
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/2.svg" alt="Icone de carregador">
+                </div>
+                <p>Acessorios <br>em geral</p>
+            </div>
+
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/3.svg" alt="Icone de bateria descarregando">
+                </div>
+                <p>Troca <br>de bateria</p>
+            </div>
+
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/4.svg" alt="Icone de placa mãe">
+                </div>
+                <p>Reparo <br>de placa</p>
+            </div>
+
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/5.svg" alt="Icone de celular carregando">
+                </div>
+                <p>Troca <br>de conectores</p>
+            </div>
+
+            <div class="servico">
+                <div class="card">
+                    <img src="./imgs/icons/6.svg" alt="Icone de engrenagem">
+                </div>
+                <p>Atualizações <br>de sistema</p>
+            </div>           
+        </div>
+    </section>
+
+     <!-- ********** BENEFICIOS ********** -->
+     <section class="beneficios" id="beneficios">
+        <div class="content-beneficios-geral">
+            <div class="heading">
+                <h2>Beneficíos</h2>
+            </div>
+
+            <div class="content-beneficios">
+                <div class="beneficio">
+                    <img src="imgs/icons/7.svg" alt="Icone de estrelas">
+                    <p>Peças originais e de 1ª lina</p>
+                </div>
+
+                <div class="beneficio">
+                    <img src="imgs/icons/8.svg" alt="Icone de engrenagem">
+                    <p>Laboratório totalmente moderno</p>
+                </div>
+
+                <div class="beneficio">
+                    <img src="imgs/icons/9.svg" alt="Icone de orçamento">
+                    <p>Orçamentos rápidos via WhatsApp</p>
+                </div>
+
+                <div class="beneficio">
+                    <img src="imgs/icons/10.svg" alt="Icone de garantia">
+                    <p>Garantia de 3 mês para qualquer serviço</p>
+                </div>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=5571992845405&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."><button class="btn">Solicite seu orçamento agora mesmo</button></a>
+        </div>
+    </section>
+
+         <!-- ********** MARCAS ********** -->
+    <section class="marcas" id="marcas">
+        <div>
+            <img src="imgs/icons/11.svg" alt="Lopo da apple">
+
+            <img src="imgs/icons/12.svg" alt="Lopo da LG">
+
+            <img src="imgs/icons/13.svg" alt="Lopo da Motorola">
+
+            <img src="imgs/icons/14.svg" alt="Lopo da Xiaomi">
+
+            <img src="imgs/icons/15.svg" alt="Lopo da Samsung">
+        </div>
+    </section>
+
+         <!-- ********** LOCALIZAÇÃO ********** -->
+    <section class="localizacao" id="localizacao">
+            <div class="encontre">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6353.615348102328!2d-38.43373120587737!3d-12.934523169767061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71611591c05885f%3A0x7d5864cf3cf3d4c0!2sTimephone%20-%20assist%C3%AAncia%20t%C3%A9cnica%20em%20celular!5e0!3m2!1spt-BR!2sbr!4v1659665625951!5m2!1spt-BR!2sbr" width="100%" height="350" margin-top="20" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+     <!-- ********** CONTATO ********** -->
+                <div class="contatos" id="contato">
+                    <p>Telefone: (71) 3486-7772</p>
+
+                    <a href="#home">
+                    <img src="./imgs/Logo-TimePhone.png" class="Logo" alt="Logo da TimePhone"></a>
+
+                    <div class="redes">
+                        <p>Redes:</p>
+
+                        <a href="https://www.instagram.com/timephone.assistencia/">
+                        <img src="imgs/icons/instagram.svg" alt="Logo do instagram"></a>
+
+                        <a href="https://api.whatsapp.com/send?phone=5571992845405&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.">
+                        <img src="./imgs/icons/whatsapp.svg" alt="Logo WhatsApp"></a>
+                    </div>
+                </div>                 
+            </div>
+    </section>
+ <footer>
+    <p>Desenvolvido por <a href="https://www.linkedin.com/in/antonioscn/"> @Dev.neto</a> | Front-End Developer</p>
+ </footer>
+</body>
+</html>
+
+<!-- ---------------------------------------------------------- 
+DESENVOLVIDO POR ANTONIO CRUZ NT (@dev.neto) */
+----------------------------------------------------------  -->
