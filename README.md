@@ -1,7 +1,7 @@
 ## <p align="center"> TimePhone - Assistência Técnica</p>
 
 <p align="center">
-Repositório criado para compartilhar a atualização da LandingPage desenvolvida para uma assistência técnica de celulares em Salvador-Ba.
+Repositório criado para compartilhar a atualização no projeto de uma LandingPage desenvolvida para uma assistência técnica de celulares em Salvador-Ba.
  
 O Projeto surgiu a partir da solicitação do dono da assistência, que queria uma página simples, bonita, e eficiente para utilizar vinculada ao google meu negócio.
 
